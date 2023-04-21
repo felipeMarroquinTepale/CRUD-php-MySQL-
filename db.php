@@ -3,10 +3,10 @@
 session_start();
 
 $conn = mysqli_connect(
-    'localhost',
-    'root',
-    '',
-    'php_mysql_crud'
+    '', //insert host
+    '', //insert your user
+    '', //insert your password
+    '' //insert table name
 );
 
 
